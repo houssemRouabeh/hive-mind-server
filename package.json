@@ -1,0 +1,19 @@
+{
+  "name": "hive_mind_server",
+  "version": "1.0.0",
+  "description": "The backend of the \"Hive Mind Project\" job web application is a robust and secure system designed for seamless user authentication, dynamic job posting, and intelligent job matching. It features a comprehensive resume management system, real-time communication capabilities, and an efficient search and recommendation engine.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "houssem_rouabeh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2",
+    "nodemon": "^3.0.3"
+  }
+}
